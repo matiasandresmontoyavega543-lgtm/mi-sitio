@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bluetooth — Tecnología Inalámbrica</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Playfair+Display:wght@400;700;900&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-ornament">✦ ✦ ✦</div>
+    <div class="bt-symbol">&#9883;</div>
+    <h1>BLUETOOTH</h1>
+    <p class="subtitulo">La Maravilla Inalámbrica del Siglo XXI</p>
+    <div class="header-ornament">✦ ✦ ✦</div>
+  </header>
+
+  <!-- NAVEGACION -->
+  <nav>
+    <ul>
+      <li><a href="#quees">¿Qué Es?</a></li>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#como">Cómo Funciona</a></li>
+      <li><a href="#versiones">Versiones</a></li>
+      <li><a href="#usos">Usos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- SECCION QUE ES -->
+    <section id="quees">
+      <div class="section-header">
+        <span class="ornament-line"></span>
+        <h2>¿Qué es el Bluetooth?</h2>
+        <span class="ornament-line"></span>
+      </div>
+
+      <div class="content-block">
+        <div class="drop-cap-wrap">
+          <p>
+            <span class="drop-cap">E</span>l <strong>Bluetooth</strong> es una tecnología de comunicación inalámbrica 
+            de corto alcance que permite que dos o mas dispositivos se conecten entre sí sin necesidad de cables. 
+            Utiliza ondas de radio en la frecuencia de <strong>2.4 GHz</strong> para transmitir datos.
+          </p>
+          <p>
+            Básicamente es lo que usa tu celular pa conectarse a los audifonos, el carro, el teclado, 
+            los parlantes, y un monton de cosas mas. Es tan comun que ya ni le prestamos atencion, 
+            pero por dentro es bastante interesante (según lo que encontré investigando para este trabajo xd).
+          </p>
+        </div>
+
+        <div class="dato-curioso">
+          <h3>&#9733; Dato Curioso</h3>
+          <p>
+            El nombre "Bluetooth" viene del rey vikingo <em>Harald Blåtand</em> (que en español 
+            significa "Diente Azul"), quien unificó tribus danesas en el siglo X. 
+            Los ingenieros lo escogieron porque querían unificar protocolos de comunicación, 
+            igual que el rey unificó su gente. No lo sabia antes de buscar esto, bastante bacano.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">⸻ ✦ ⸻</div>
+
+    <!-- SECCION HISTORIA -->
+    <section id="historia">
+      <div class="section-header">
+        <span class="ornament-line"></span>
+        <h2>Historia</h2>
+        <span class="ornament-line"></span>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-year">1994</div>
+          <div class="tl-content">
+            <h4>Los orígenes</h4>
+            <p>La empresa <strong>Ericsson</strong> empieza a investigar una forma de conectar teléfonos móviles con sus accesorios sin cables. Ahi nació la idea.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">1998</div>
+          <div class="tl-content">
+            <h4>El grupo SIG</h4>
+            <p>Se forma el <em>Bluetooth Special Interest Group</em> con empresas como Nokia, IBM, Intel y Toshiba. Básicamente los grandes del momento se unieron.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">1999</div>
+          <div class="tl-content">
+            <h4>Primera versión</h4>
+            <p>Sale Bluetooth 1.0 — tenía bastantes errores y no era muy compatible entre marcas distintas, pero era el comienzo. Hay que empezar por algún lado.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2004</div>
+          <div class="tl-content">
+            <h4>Versión 2.0 + EDR</h4>
+            <p>Mejoró la velocidad de transferencia hasta 3 Mbps. Ya se podian enviar archivos mas rapido y con menos interferencia.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2010</div>
+          <div class="tl-content">
+            <h4>Bluetooth Low Energy</h4>
+            <p>Con la versión 4.0 llega el <strong>BLE</strong> (Bajo Consumo de Energía). Esto fue clave para los smartwatches y dispositivos IoT que necesitan durar mucho con una batería pequeña.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2016</div>
+          <div class="tl-content">
+            <h4>Bluetooth 5.0 — El moderno</h4>
+            <p>Duplicó la velocidad y cuadruplicó el alcance respecto a la versión anterior. Es el que encontramos hoy en día en casi todos los dispositivos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">⸻ ✦ ⸻</div>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como">
+      <div class="section-header">
+        <span class="ornament-line"></span>
+        <h2>¿Cómo Funciona?</h2>
+        <span class="ornament-line"></span>
+      </div>
+
+      <div class="content-block">
+        <p>
+          El Bluetooth utiliza una técnica llamada <strong>FHSS</strong> (Frequency Hopping Spread Spectrum), 
+          que en español significa "Espectro Ensanchado por Salto de Frecuencia". 
+          Básicamente la señal salta entre 79 canales diferentes dentro de la banda de 2.4 GHz 
+          unas 1600 veces por segundo. Esto hace que sea mas resistente a interferencias.
+        </p>
+
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">&#128246;</div>
+            <h4>Frecuencia</h4>
+            <p>Opera en la banda ISM de 2.4 GHz, la misma que el WiFi. Por eso a veces se interfieren entre sí.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128268;</div>
+            <h4>Alcance</h4>
+            <p>Depende de la clase del dispositivo. Clase 1: hasta 100m. Clase 2: ~10m (la más común). Clase 3: ~1m.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#9889;</div>
+            <h4>Velocidad</h4>
+            <p>Varía según la versión. Bluetooth 5.0 puede alcanzar hasta 2 Mbps en modo LE o más con conexión clásica.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128279;</div>
+            <h4>Emparejamiento</h4>
+            <p>Dos dispositivos deben "emparejarse" (pairing) para comunicarse. Uno actua como maestro y el otro como esclavo.</p>
+          </div>
+        </div>
+
+        <div class="nota-estudiante">
+          <em>
+            Nota personal: Al principio pensé que Bluetooth y WiFi eran lo mismo porque usan la misma frecuencia, 
+            pero son protocolos completamente distintos. El WiFi es para internet y el Bluetooth es para comunicacion 
+            directa entre dispositivos. Me lo tuvo que aclarar el profe (gracias profe si lee esto lol).
+          </em>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">⸻ ✦ ⸻</div>
+
+    <!-- VERSIONES -->
+    <section id="versiones">
+      <div class="section-header">
+        <span class="ornament-line"></span>
+        <h2>Versiones</h2>
+        <span class="ornament-line"></span>
+      </div>
+
+      <div class="tabla-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Versión</th>
+              <th>Año</th>
+              <th>Velocidad Máx.</th>
+              <th>Alcance</th>
+              <th>Novedad Principal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.0</td>
+              <td>1999</td>
+              <td>1 Mbps</td>
+              <td>10 m</td>
+              <td>Primera versión, muchos bugs</td>
+            </tr>
+            <tr>
+              <td>2.0 + EDR</td>
+              <td>2004</td>
+              <td>3 Mbps</td>
+              <td>10 m</td>
+              <td>Mayor velocidad, menos consumo</td>
+            </tr>
+            <tr>
+              <td>3.0 + HS</td>
+              <td>2009</td>
+              <td>24 Mbps</td>
+              <td>10 m</td>
+              <td>Transferencia de archivos pesados</td>
+            </tr>
+            <tr>
+              <td>4.0 (BLE)</td>
+              <td>2010</td>
+              <td>1 Mbps</td>
+              <td>50 m</td>
+              <td>Bajo consumo energético (IoT)</td>
+            </tr>
+            <tr>
+              <td>5.0</td>
+              <td>2016</td>
+              <td>2 Mbps</td>
+              <td>200 m</td>
+              <td>Mayor alcance y velocidad</td>
+            </tr>
+            <tr>
+              <td>5.3</td>
+              <td>2021</td>
+              <td>2 Mbps</td>
+              <td>200 m</td>
+              <td>Mejor eficiencia y estabilidad</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="divider">⸻ ✦ ⸻</div>
+
+    <!-- USOS -->
+    <section id="usos">
+      <div class="section-header">
+        <span class="ornament-line"></span>
+        <h2>Usos Cotidianos</h2>
+        <span class="ornament-line"></span>
+      </div>
+
+      <div class="usos-grid">
+        <div class="uso-item">
+          <span class="uso-icon">&#127911;</span>
+          <h4>Audífonos y Parlantes</h4>
+          <p>El uso mas popular. Los AirPods, los audifonos Sony, JBL, todo eso usa Bluetooth para conectarse al celular.</p>
+        </div>
+        <div class="uso-item">
+          <span class="uso-icon">&#128697;</span>
+          <h4>Autos</h4>
+          <p>Para llamadas manos libres y reproducir musica desde el celular. Ahora casi todos los carros nuevos tienen esto.</p>
+        </div>
+        <div class="uso-item">
+          <span class="uso-icon">&#9000;</span>
+          <h4>Teclados y Ratones</h4>
+          <p>Los teclados inalámbricos para computador ya casi todos usan Bluetooth. Adiós a los cables en el escritorio.</p>
+        </div>
+        <div class="uso-item">
+          <span class="uso-icon">&#10084;</span>
+          <h4>Salud y Wearables</h4>
+          <p>Los relojes inteligentes y pulseras de actividad física usan Bluetooth Low Energy para enviar datos al celular.</p>
+        </div>
+        <div class="uso-item">
+          <span class="uso-icon">&#128302;</span>
+          <h4>IoT y Hogar</h4>
+          <p>Bombillas inteligentes, cerraduras, sensores... muchos dispositivos del hogar inteligente usan BLE.</p>
+        </div>
+        <div class="uso-item">
+          <span class="uso-icon">&#127918;</span>
+          <h4>Videojuegos</h4>
+          <p>Los controles de PlayStation y Nintendo Switch se conectan por Bluetooth. Yo pensaba que era algo diferente pero no xd.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-ornament">✦ ✦ ✦</div>
+    <p>Trabajo elaborado por: <strong>Estudiante de Ingeniería — Primer Semestre</strong></p>
+    <p class="footer-sub">Asignatura: Introducción a las Tecnologías de la Información</p>
+    <p class="footer-sub">Fecha de entrega: 28 de Abril de 2026</p>
+    <div class="footer-ornament">✦ ✦ ✦</div>
+  </footer>
+
+</body>
+</html>
